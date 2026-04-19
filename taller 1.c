@@ -206,7 +206,21 @@ float raiz_cuadrada(int m){
     
 }
 
+int vectores_iguales(int v1[], int tam){
+    
+    int vector2= 0; 
+    int vector3= 0; 
 
+    
+
+
+    for(int i=0 ; i<tam ; i++){
+        if(v1[i] != v2[i]){
+            return 0;
+        }
+    }
+    return 1; 
+}
 
 
 
